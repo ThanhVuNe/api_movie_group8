@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000" ,"https://thanhvu-movie.netlify.app/"})
 @RequestMapping("/api/movie")
 public class MovieController {
     @Autowired
