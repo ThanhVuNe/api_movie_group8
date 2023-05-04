@@ -2,13 +2,11 @@ package com.example.api_account.controller;
 
 import com.example.api_account.entity.Movie;
 import com.example.api_account.repo.MovieRepository;
-import com.example.api_account.service.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController

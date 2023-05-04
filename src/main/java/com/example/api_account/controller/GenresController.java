@@ -1,9 +1,7 @@
 package com.example.api_account.controller;
 
-import com.example.api_account.dto.GenresDto;
 import com.example.api_account.entity.Genres;
 import com.example.api_account.repo.GenresRepository;
-import com.example.api_account.service.GenresService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -18,7 +18,7 @@ import java.util.List;
 public class MovieGenresController {
     @Autowired
     MovieGenresRepository movieGenresRepository;
-@Autowired
+    @Autowired
     MovieRepository movieRepository;
     @GetMapping("/all")
     public List<MovieGenres> getAllMovieGenres(){
