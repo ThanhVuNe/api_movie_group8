@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000" ,"https://thanhvu-movie.netlify.app/"})
+@CrossOrigin(origins = {"http://localhost:3000" ,"https://group8-power-of-love.netlify.app/"})
 @RequestMapping("/api/movie")
 public class MovieController {
     @Autowired
