@@ -28,7 +28,6 @@ public class LoginServiceImp implements LoginService{
             account.setPassword(passwordEncoder.encode(account.getPassword()));
             System.out.println(account.getPassword());
             loginRepository.save(account);
-
             return account.getEmail();
         }
     }
